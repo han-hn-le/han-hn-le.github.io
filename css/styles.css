@@ -4,13 +4,15 @@
 body {
   margin: 60px auto;
   width: 70%;
-  font-family: 'Montserrat', sans-serif; /* Use Montserrat font for the entire page */
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {
-  background-color: #e3d4fa; /* Change the color as needed */
-  font-family: 'Montserrat', sans-serif; /* Use Montserrat font for the navigation bar */
+  background-color: #e3d4fa;
+  font-family: 'Montserrat', sans-serif;
+  height: 60px; /* Increase the height as needed */
 }
+
 
 nav ul, footer ul {
   font-family: 'Montserrat', sans-serif; /* Use Montserrat font for lists in navigation and footer */
