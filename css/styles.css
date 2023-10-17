@@ -59,12 +59,12 @@ footer {
   padding-right: 20px; /* Add spacing between the columns */
 }
 
-/* /* Styles for the circular profile picture */
+/* Styles for the circular profile picture */
 .profile-picture {
   text-align: center; /* Center the image vertically */
-} */
+}
 
 .profile-picture img {
-  width: 50px; /* Adjust the size as needed */
-  height: auto
+  max-width: 100%; /* Make the image responsive within its container */
+  height: auto;
 }
