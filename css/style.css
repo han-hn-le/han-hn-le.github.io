@@ -1,43 +1,70 @@
+/* Global styles */
 body {
-    margin: 60px auto;
-    width: 70%;
+  margin: 60px auto;
+  width: 70%;
 }
+
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
 }
+
 nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
+
 a {
-    text-decoration: none;
-    color: #999;
+  text-decoration: none;
+  color: #999;
 }
+
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+h2 {
+  font-size: 2em;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #333;
 }
+
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  border-top: 1px solid #d5d5d5;
+  font-size: 0.8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+/* Styles for the container */
+.container {
+  display: flex;
+  align-items: center;
 }
 
-ul.posts li {
-    list-style: none;
+/* Styles for the row and columns */
+.row {
+  display: flex;
+  flex-direction: row; /* Horizontal arrangement */
+  justify-content: space-between; /* Space between the columns */
+}
+
+.text {
+  flex: 1; /* Text takes up available space */
+  padding-right: 20px; /* Add spacing between the columns */
+}
+
+/* /* Styles for the circular profile picture */
+.profile-picture {
+  text-align: center; /* Center the image vertically */
+} */
+
+.profile-picture img {
+  width: 50px; /* Adjust the size as needed */
+  height: auto
 }
