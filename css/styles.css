@@ -11,6 +11,9 @@ nav {
   background-color: #e3d4fa;
   font-family: 'Montserrat', sans-serif;
   height: 60px; /* Increase the height as needed */
+  display: flex;
+  justify-content: center; /* Center the navigation items horizontally */
+  align-items: center; /* Center the navigation items vertically */
 }
 
 
