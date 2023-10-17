@@ -68,7 +68,7 @@ footer {
 
 .text {
   flex: 1; /* Text takes up available space */
-  padding-right: 20px; /* Adjust spacing between the columns */
+  padding-right: 2px; /* Adjust spacing between the columns */
 }
 
 /* Styles for the circular profile picture */
