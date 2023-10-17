@@ -1,11 +1,19 @@
+/* Import Montserrat font if not included in HTML */
+
 /* Global styles */
 body {
   margin: 60px auto;
   width: 70%;
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font for the entire page */
+}
+
+nav {
+  background-color: #3498db; /* Change the color as needed */
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font for the navigation bar */
 }
 
 nav ul, footer ul {
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font for lists in navigation and footer */
   padding: 0;
   list-style: none;
   font-weight: bold;
@@ -27,18 +35,20 @@ a:hover {
 
 h2 {
   font-size: 2em;
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font for h2 elements */
 }
 
 p {
   font-size: 1.5em;
   line-height: 1.4em;
   color: #333;
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font for paragraphs */
 }
 
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font for the footer */
 }
 
 /* Styles for the container */
@@ -56,9 +66,8 @@ footer {
 
 .text {
   flex: 1; /* Text takes up available space */
-  padding-right: 2px; /* Adjust spacing between the columns */
+  padding-right: 20px; /* Adjust spacing between the columns */
 }
-
 
 /* Styles for the circular profile picture */
 .profile-picture {
